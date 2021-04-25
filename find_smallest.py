@@ -3,7 +3,7 @@ def time_func(func):
   t1 = time.time()
   func()
   t2 = time.time()
-  print(int(t2 - t1))
+  print("Time took (in sec):", int(t2 - t1))
 
 a_lst = [ 1, 5, 2, 4 ]
 b_lst = [ 5, 8, 4, -5 ]
